@@ -1,0 +1,139 @@
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+    background-image: url(../images/background.jpeg);
+    background-attachment: scroll;
+  }
+
+.navbar navbar-expand-lg navbar-light bg-light{
+  color: white;
+  width: 100%;
+}
+#navbar{
+  box-shadow:0 0 3mm 0 rgb(161, 161, 161);
+  padding-bottom: 0px;
+  width:100%;
+}
+#navlinks{
+  position: relative;
+  top: 20px;
+}
+
+.navbar-brand{
+  font-family: 'Georgia';
+  background-color: rgb(74, 195, 252);
+  padding: 20px 20px;
+  font-weight: bold;
+}
+.innerHeaderContainer{
+  width: 100%;
+}
+#name{
+  color: white;
+  font-size: 30px;
+}
+
+.nav-item nav-link{
+  font-size: 20px;
+  font: "Arial";
+  color: grey;
+}
+
+/* whole document */
+
+  h1{
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Georgia';
+    font-weight: bold;
+    color: rgb(74, 195, 252);
+}
+
+.profileimg{
+margin-top: 0.5cm;
+margin-right: 1.3cm;
+border-radius: 5px;
+}
+
+h3{
+  font: 'Georgia';
+  color: rgb(136, 132, 132);
+}
+ul{
+  font: "Arial";
+  color: rgb(136, 132, 132);
+}
+#p1{
+  color: rgb(136, 132, 132);
+  line-height: 40px;
+  font: "Arial";
+}
+#contact-info-column{
+  top: 8px;
+}
+#p2{
+  color: rgb(136, 132, 132);
+  width: 300px;
+  text-align: center;
+  line-height: 40px;
+  font: "Arial";
+}
+.linksinindex:hover { 
+  background-color: white;
+  padding: 5px;
+  color: rgb(74, 195, 252);
+  
+}
+.linksinindex{
+  text-decoration: none;
+  color: grey;
+  border-radius: 7px;
+}
+
+.outerIContainer{
+  padding-top: 6%;
+}
+/* portfolio white background */
+.icontainer {
+  left: 10%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 35px 70px;
+  box-shadow:0 0 3mm 0 rgb(161, 161, 161);
+}
+
+.outerPContainer{
+  padding-top: 6%;
+}
+/* portfolio white background */
+.pcontainer {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px 50px;
+    box-shadow:0 0 3mm 0 rgb(161, 161, 161);
+  }
+   /* contact white background */
+.ccontainer {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px 50px;
+  box-shadow:0 0 3mm 0 rgb(161, 161, 161);
+}
+
+#footercolumn{
+width: 100%;
+}
+#footer{
+  font: "Arial";
+  width: 110%;
+  position: absolute;
+  bottom: 0%;
+  height: 45px;
+  color: white;
+  background-color: rgb(150, 150, 150);
+  text-align: center;
+  border-top: 5px solid rgb(74, 195, 252);
+}
+
