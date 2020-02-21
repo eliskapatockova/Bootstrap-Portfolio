@@ -15,8 +15,9 @@ body {
 #navbar{
   box-shadow:0 0 3mm 0 rgb(161, 161, 161);
   padding-bottom: 0px;
-  width:100%;
+  width: 100%;
 }
+
 #navlinks{
   position: relative;
   top: 20px;
@@ -41,8 +42,6 @@ body {
   font: "Arial";
   color: grey;
 }
-
-/* whole document */
 
   h1{
     font-size: 33px;
@@ -112,10 +111,15 @@ ul{
 .pcontainer {
     border-radius: 5px;
     background-color: white;
-    padding: 40px 50px;
+    padding: 35px 70px;
     box-shadow:0 0 3mm 0 rgb(161, 161, 161);
   }
 
+  .portfolioImages{
+    border-radius: 7px;
+    width:100%;
+    z-index: -1;
+  }
     #portfolioButtons{
       z-index: 0;
       position: relative;
@@ -136,8 +140,13 @@ ul{
 #contactBox {
   border-radius: 5px;
   background-color: white;
-  padding: 20px 50px;
+  padding: 35px 70px;
   box-shadow:0 0 3mm 0 rgb(161, 161, 161);
+}
+.contactHeadings{
+  color: rgb(161, 161, 161);
+  font: "Arial";
+  font-size: 20px;
 }
 #sumbitButton{
   margin-top: 3%;
@@ -154,9 +163,10 @@ width: 100%;
 }
 #footer{
   font: "Arial";
-  width: 110%;
+  width: 120%;
+  margin-left: -10%;
   position: absolute;
-  bottom: -35%;
+  bottom: -55%;
   height: 45px;
   color: white;
   background-color: rgb(150, 150, 150);
