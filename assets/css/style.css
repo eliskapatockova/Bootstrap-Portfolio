@@ -5,6 +5,7 @@ body {
   margin: 0;
     background-image: url(../images/background.jpeg);
     background-attachment: scroll;
+    margin-bottom: -35px;
   }
 
 .navbar navbar-expand-lg navbar-light bg-light{
@@ -111,15 +112,41 @@ ul{
 .pcontainer {
     border-radius: 5px;
     background-color: white;
-    padding: 20px 50px;
+    padding: 40px 50px;
     box-shadow:0 0 3mm 0 rgb(161, 161, 161);
   }
+
+    #portfolioButtons{
+      z-index: 0;
+      position: relative;
+      width: 100%;
+      Bottom: 50%;
+      align-content: center;
+    }
+    .centered:hover {
+      text-decoration: none;
+      background-color: white;
+      padding: 8px;
+      color: rgb(74, 195, 252);
+      }
    /* contact white background */
-.ccontainer {
+   #outerContactBox{
+    padding-top: 6%;
+   }
+#contactBox {
   border-radius: 5px;
   background-color: white;
   padding: 20px 50px;
   box-shadow:0 0 3mm 0 rgb(161, 161, 161);
+}
+#sumbitButton{
+  margin-top: 3%;
+  background-color: rgb(74, 195, 252);
+  border-color: rgb(74, 195, 252);
+}
+#sumbitButton:hover {
+  background-color: rgb(17, 178, 253);
+  border-color: rgb(17, 178, 253);
 }
 
 #footercolumn{
@@ -129,7 +156,7 @@ width: 100%;
   font: "Arial";
   width: 110%;
   position: absolute;
-  bottom: 0%;
+  bottom: -35%;
   height: 45px;
   color: white;
   background-color: rgb(150, 150, 150);
