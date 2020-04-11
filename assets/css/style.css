@@ -126,13 +126,25 @@ ul{
       width: 100%;
       Bottom: 50%;
       align-content: center;
+      font: Georgia;
+      font-size: 18px;
+    }
+    #portfolioButtons:hover{
+      /* background-color: rgb(238, 248, 253); */
+      background-color: white;
+      /* font-size: 19px; */
+      font-weight: bold;
+      box-shadow: 0px 0px white;
+      border-color: white;
+      
     }
     .centered:hover {
       text-decoration: none;
       background-color: white;
       padding: 8px;
-      color: rgb(74, 195, 252);
+      color: rgb(74, 210, 252);
       }
+
    /* contact white background */
    #outerContactBox{
     padding-top: 6%;
@@ -161,16 +173,26 @@ ul{
 #footercolumn{
 width: 100%;
 }
-#footer{
+
+#sticky-footer {
+  flex-shrink: none;
+  font: "Arial";
+  color: white;
+  height: 45px;
+  background-color: rgb(150, 150, 150);
+  border-top: 5px solid rgb(74, 195, 252);
+  margin-top: 6%;
+}
+/* #footer{
   font: "Arial";
   width: 120%;
   margin-left: -10%;
   position: absolute;
   bottom: -55%;
-  height: 45px;
+  height: 25px;
   color: white;
   background-color: rgb(150, 150, 150);
   text-align: center;
   border-top: 5px solid rgb(74, 195, 252);
-}
+} */
 
